@@ -7,6 +7,7 @@ def index_page(request):
     return render(request, 'pages/index.html', context)
 
 
+
 def add_snippet_page(request):
     context = {'pagename': 'Добавление нового сниппета'}
     return render(request, 'pages/add_snippet.html', context)
